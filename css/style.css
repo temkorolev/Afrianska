@@ -556,6 +556,7 @@ a:hover {
     line-height: 38px;
   }
   .introBox {
+    padding-top: 60px;
     min-height: 60vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -576,6 +577,36 @@ a:hover {
     width: 100%;
     margin: 20px 0;
   }
+  .digitalBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .digitalInner {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cardLeft {
+    margin-top: 50px;
+  }
+  .client {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: #5a98d0;
+  }
+  .teamTitle {
+    width: 80%;
+  }
 }
 @media (max-width: 575.98px) {
   h1 {
@@ -583,7 +614,8 @@ a:hover {
     line-height: 38px;
   }
   .introBox {
-    min-height: 45vh;
+    padding-top: 60px;
+    min-height: 55vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -602,5 +634,87 @@ a:hover {
   .subtitle {
     width: 100%;
     margin: 20px 0;
+  }
+  .digitalBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .digitalInner {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cardLeft {
+    margin-top: 50px;
+  }
+  .digitalCard {
+    padding: 40px;
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+  }
+  .finishedInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .finishedTitle {
+    width: 100%;
+  }
+  .finishedSubtitle {
+    width: 100%;
+  }
+  .finishedIntroBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .finishedContent {
+    width: 100%;
+  }
+  .client {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  .teamBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .teamInner {
+    width: 100%;
+  }
+  .teamTitle {
+    width: 100%;
+  }
+  .teamSubtitle {
+    width: 100%;
+  }
+  .btnInner {
+    width: 30%;
+    padding-top: 10px;
   }
 }
