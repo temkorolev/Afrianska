@@ -607,6 +607,9 @@ a:hover {
   .teamTitle {
     width: 80%;
   }
+  .footerAbout {
+    display: none;
+  }
 }
 @media (max-width: 575.98px) {
   h1 {
@@ -716,5 +719,29 @@ a:hover {
   .btnInner {
     width: 30%;
     padding-top: 10px;
+  }
+  .finishedIntro img {
+    width: 70%;
+  }
+  .footerBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footerLogo {
+    text-align: center;
+  }
+  .footerInner {
+    width: 100%;
+  }
+  .footerAbout {
+    display: none;
+  }
+  .footerSocial {
+    display: none;
   }
 }
