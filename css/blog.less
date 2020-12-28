@@ -2,6 +2,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import "variables.less";
 
-body {
-   background-color: yellow;
+/* BLOGS */
+.blogs {
+   margin-bottom: 30px;
+   width: 100%;
+   min-height: 300px;
+   background-image: linear-gradient(45deg, rgba(31, 63, 105, .7)
+   10%, rgba(66, 165, 245, .2) 50%), url(../img/blog-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
+.blogsBox {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top: 60px;
+   width: 100%;
+   min-height: 300px;
+   color: @color-white;
+}
+.blogsInner {
+   width: 50%;
+}
+.blogsInner h1 {
+   color: @color-white;
+}
+
+/* SEARCHING */
+/* FORM */
+.searchArticle {
+   padding: 30px 0;
+}
+form {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background: #F9F0DA;
+  border-radius: 10px;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+button {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+button:before {
+  content: "\f178";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #be290e;
+}
+
+/* POPULAR */
+.popular {
+   width: 100%;
+}
+.popularBox {
+   margin-bottom: 30px;
+   border-bottom: 1px solid #b9b9b9;
+}
+.popularInner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.popularContent {
+   width: 48%;
+}
+.popularContent h4 {
+   margin-bottom: 30px;
+}
+.popularContent p {
+   margin-bottom: 30px;
+}
+.contentOther,
+.secondOther {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.otherLeft p {
+   margin-bottom: 5px;
+}
+.otherRight {
+   margin-left: 100px;
+}
+.secondInner {
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+.secondCard {
+   width: 32%;
+}
+.secondCard h5 {
+   margin-bottom: 20px;
+}
+.cardImage {
+   margin-bottom: 20px;
+}
+.secondLeft p {
+   margin-bottom: 5px;
+}
+.popularPic img,
+.cardImage img {
+   display: block;
+   width: 100%;
+}
+.secondAll {
+   margin: 20px 0;
+   text-align: right;
+}
+
+/* MYBLOG */
+.myblog {
+   width: 100%;
+   margin-bottom: 50px;
+}
+.myblogBox {
+   width: 100%;
+   margin: 30px 0;
+}
+.myblogInner {
+   margin-top: 30px;
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+}
+.myblogImage {
+   width: 30%;
+}
+.myblogContent {
+   width: 65%;
+   margin-left: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.blogtOther {
+   margin-top: 20px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.blogLeft p{
+   margin-bottom: 5px;
+}
+.blogRight {
+   margin-left: 100px;
+}
+.myblogContent h4 {
+   margin-bottom: 20px;
+}
+
+/* MEDIA */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (max-width: 575.98px) {}
