@@ -82,6 +82,7 @@ button:before {
 }
 .popularContent {
    width: 48%;
+   margin-bottom: 15px;
 }
 .popularImage {
    width: 48%;
@@ -111,6 +112,7 @@ button:before {
 }
 .secondCard {
    width: 32%;
+   margin-bottom: 15px;
 }
 .secondCard h5 {
    margin-bottom: 20px;
@@ -147,6 +149,7 @@ button:before {
    justify-content: space-between;
 }
 .myblogImage {
+   margin-bottom: 10px;
    width: 30%;
 }
 .myblogContent {
@@ -157,7 +160,6 @@ button:before {
    justify-content: space-between;
 }
 .blogtOther {
-   margin-top: 20px;
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -187,6 +189,32 @@ button:before {
    .otherRight {
       margin-left: 30px;
    }
+   .secondCard {
+      width: 48%;
+   }
+   .cardNone {
+      display: none;
+   }
+
+   /* myblog */
+   .myblogInner {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .myblogImage {
+      width: 100%;
+   }
+   .myblogContent {
+      width: 100%;
+   }
+   .myblogContent {
+      width: 100%;
+      margin-left: 0;
+   }
+   .blogRight {
+      margin-left: 30px;
+   }
 }
 @media (max-width: 575.98px) {
    /*blogs*/
@@ -200,6 +228,9 @@ button:before {
    }
    .popularContent {
       width: 100%;
+   }
+   .ContentNone {
+      display: none;
    }
    .contentOther {
       display: flex;
@@ -217,6 +248,10 @@ button:before {
    }
    .secondCard {
       width: 100%;
+      margin-bottom: 20px;
+   }
+   .secondCard h5 {
+      margin-bottom: 10px;
    }
    /* myblog */
    .myblogInner {
