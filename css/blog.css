@@ -114,10 +114,10 @@ button {
   cursor: pointer;
 }
 button:before {
-  content: "\f178";
+  content: "go";
   font-family: FontAwesome;
   font-size: 20px;
-  color: #be290e;
+  color: #60a8e3;
 }
 /* POPULAR */
 .popular {
@@ -256,8 +256,12 @@ button:before {
     width: 100%;
     margin-left: 0;
   }
+  .blogtOther {
+    display: flex;
+    justify-content: flex-start;
+  }
   .blogRight {
-    margin-left: 30px;
+    margin-left: 100px;
   }
 }
 @media (max-width: 575.98px) {
@@ -312,6 +316,10 @@ button:before {
   .myblogContent {
     width: 100%;
     margin-left: 0;
+  }
+  .blogtOther {
+    display: flex;
+    justify-content: space-between;
   }
   .blogRight {
     margin-left: 30px;

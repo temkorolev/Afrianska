@@ -448,6 +448,16 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
+/* PAGE 404 */
+.error {
+  margin-top: 70px;
+}
+.errorBox {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 992px) and (max-width: 1199.98px) {
   h1 {
     font-size: 50px;
